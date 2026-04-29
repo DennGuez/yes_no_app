@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         ChangeNotifierProvider(create: (_) => ChatProvider())
       ],
       child: MaterialApp(
-        title: 'Material App',
+        title: 'Yes No App',
         debugShowCheckedModeBanner: false,
         theme: AppTheme().theme(),
         home: ChatScreen()
